@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trello App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Trello App</h1>
+    <div class="board-list">
+      <h2>My Boards</h2>
+      <button id="createBoardBtn" class="btn btn-primary">Create New Board</button>
+      <div id="boardsContainer" class="boards"></div>
+    </div>
+  </div>
+
+  <!-- Modal para criar novo board -->
+  <div id="createBoardModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Create New Board</h2>
+      <input type="text" id="boardNameInput" placeholder="Enter board name..." class="input">
+      <button id="confirmCreateBtn" class="btn btn-primary">Create</button>
+      <button id="cancelCreateBtn" class="btn btn-secondary">Cancel</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

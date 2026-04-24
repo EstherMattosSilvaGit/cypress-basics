@@ -1,0 +1,15 @@
+{
+  "name": "trelloapp",
+  "version": "1.0.0",
+  "description": "Simple Trello app for Cypress testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
