@@ -38,12 +38,6 @@ describe('Trello App Tests', () => {
     cy.url().should('include', '/board/')
   })
 
-  // TODO: Teste de validação de board sem nome
-  // it('deve rejeitar criação de board sem nome', () => {
-  //   cy.get('#createBoardBtn').click()
-  //   cy.get('#confirmCreateBtn').click()
-  // })
-
   it('deve criar múltiplos boards', () => {
     // Criar primeiro board
     cy.get('#createBoardBtn').click()
